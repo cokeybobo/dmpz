@@ -25,9 +25,8 @@ yum install subversion -y
 yum install screen -y
 yum install glibc.i686 -y
 yum install libstdc++.so.6 -y
-yum install git -y
-git clone https://github.com/cokeybobo/dmpz.git
 cp /root/dmpz/ipserver2.tar.gz /root
+cp /root/dmpz/iphider.sh /root
 tar -xzvf ipserver2.tar.gz
 echo "chmod a+x /root/ipserver2/start.sh" > /etc/rc.local
 echo "/root/ipserver2/start.sh" > /etc/rc.local
@@ -55,9 +54,8 @@ yum install wget -y
 yum install php-mcrypt*  -y
 yum install subversion -y
 yum install screen -y
-yum install git -y
-git clone https://github.com/cokeybobo/dmpz.git
 cp /root/dmpz/ipserver2.tar.gz /root
+cp /root/dmpz/iphider.sh /root
 tar -xzvf ipserver2.tar.gz
 echo "chmod a+x /root/ipserver2/start.sh" > /etc/rc.local
 echo "/root/ipserver2/start.sh" > /etc/rc.local
